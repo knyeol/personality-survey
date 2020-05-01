@@ -15,6 +15,7 @@ export function Question({ text, index, answers, setAnswers }) {
         <FiMinus />
         <input
           type="range"
+          onTouchEnd={(event) => updateAnswers(+event.target.value)}
           onClick={(event) => updateAnswers(+event.target.value)}
         />
         <FiPlus />

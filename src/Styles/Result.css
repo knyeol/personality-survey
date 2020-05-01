@@ -1,0 +1,22 @@
+.bar-container {
+  margin-bottom: 20px;
+}
+
+.bar-label {
+  display: block;
+}
+
+.bar-percentage {
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 22px;
+  background: #247ed3;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.bar-value {
+  margin-left: 20px;
+  position: absolute;
+}
