@@ -9,7 +9,8 @@ export function Group({ children, facet, state, setState }) {
 
   useEffect(() => {
     if (!answers.includes(-1)) {
-      setAverage(Math.round((answers[0] + answers[1]) / 2));
+      const result = Math.round((answers[0] + answers[1]) / 2));
+      setAverage(result);
     }
   }, [answers]);
 
