@@ -1,4 +1,5 @@
 import React from "react";
+import { Description } from "../Components";
 import { GiBrain } from "react-icons/gi";
 
 import "../Styles/Result.css";
@@ -19,8 +20,8 @@ function BarValue({ field, value }) {
 export function Result({ state }) {
   return (
     <div className="container spaced">
-      <h3>
-        <GiBrain />
+      <h3 className="result-title">
+        <GiBrain className="result-logo" />
         &ensp;Your results
       </h3>
       <BarValue field="Agreeableness" value={state.agreeableness} />
@@ -28,6 +29,7 @@ export function Result({ state }) {
       <BarValue field="Extraversion" value={state.extraversion} />
       <BarValue field="Openness to Experience" value={state.openness} />
       <BarValue field="Emotional Stability" value={state.stability} />
+      <Description />
     </div>
   );
 }
