@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 export function Group({ children, facet, state, setState }) {
+  if (children.length !== 2) throw new Error("Group must have 2 children");
+
   const [answers, setAnswers] = useState([-1, -1]);
   const [average, setAverage] = useState(0);
   const mounted = React.useRef();
 
   useEffect(() => {
-    if (answers[0] >= 0 && answers[1] >= 0) {
+    if (!answers.includes(-1)) {
       setAverage(Math.round((answers[0] + answers[1]) / 2));
     }
   }, [answers]);
@@ -36,7 +38,6 @@ export function Group({ children, facet, state, setState }) {
   return (
     <div>
       {React.Children.map(children, (child, index) => {
-        if (index > 1) throw new Error("Group container must have 2 children");
         return React.cloneElement(child, {
           index: index,
           answers: answers,

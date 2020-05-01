@@ -1,4 +1,5 @@
 import React from "react";
+import { FiPlus, FiMinus } from "react-icons/fi";
 
 export function Question({ text, index, answers, setAnswers }) {
   const updateAnswers = (value) => {
@@ -8,12 +9,16 @@ export function Question({ text, index, answers, setAnswers }) {
   };
 
   return (
-    <div>
+    <div className="question-container">
       <p>{text}</p>
-      <input
-        type="range"
-        onClick={(event) => updateAnswers(+event.target.value)}
-      />
+      <div className="slider-container">
+        <FiMinus />
+        <input
+          type="range"
+          onClick={(event) => updateAnswers(+event.target.value)}
+        />
+        <FiPlus />
+      </div>
     </div>
   );
 }

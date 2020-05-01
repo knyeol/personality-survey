@@ -1,6 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { Question, Group } from "../Components";
+
+import "../Styles/Survey.css";
 
 const facets = {
   openness: "openness",
@@ -12,8 +14,8 @@ const facets = {
 
 export function Survey({ state, setState }) {
   return (
-    <Fragment>
-      <p>I see myself as someone who&#8230;</p>
+    <div className="container spaced">
+      <h3 className="survey-title">I see myself as someone who&#8230;</h3>
       <Group facet={facets.openness} state={state} setState={setState}>
         <Question text="has an active imagination" />
         <Question text="has few artistic interests" />
@@ -34,7 +36,11 @@ export function Survey({ state, setState }) {
         <Question text="is outing, sociable" />
         <Question text="is reserved" />
       </Group>
-      <Link to="/result">View Personality</Link>
-    </Fragment>
+      <div className="link-container survey-link">
+        <Link className="link" to="/result">
+          View Personality
+        </Link>
+      </div>
+    </div>
   );
 }

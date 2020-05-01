@@ -1,0 +1,43 @@
+.window {
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+.spaced {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding: 6px 12px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background: #777777;
+  border-radius: 3px;
+  height: 6px;
+  width: 160px;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  border-radius: 50%;
+  background: #ffffff;
+  height: 18px;
+  width: 9px;
+  -webkit-appearance: none;
+}

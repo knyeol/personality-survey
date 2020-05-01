@@ -1,0 +1,19 @@
+.survey-title {
+  margin-bottom: 30px;
+}
+
+.survey-link {
+  margin-top: 60px;
+}
+
+.question-container {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+}
