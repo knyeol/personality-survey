@@ -1,11 +1,18 @@
 .result-title {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .result-logo {
   height: 34px;
   width: 34px;
+}
+
+.bar-window {
+  background: #333333;
+  padding: 15px 25px;
+  border-radius: 5px;
 }
 
 .bar-container {
@@ -29,4 +36,8 @@
 .bar-value {
   margin-left: 20px;
   position: absolute;
+}
+
+.description-container {
+  margin-top: 40px !important;
 }

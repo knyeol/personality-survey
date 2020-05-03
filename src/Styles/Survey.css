@@ -6,6 +6,11 @@
   margin-top: 60px;
 }
 
+.question-group {
+  display: flex;
+  flex-direction: column;
+}
+
 .question-container {
   margin-left: 20px;
   margin-bottom: 40px;

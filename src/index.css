@@ -17,12 +17,18 @@ p {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: #ffffff;
   background: #2c4c7c;
   padding: 1px 6px;
+  margin: 2px auto;
 }
 
 a:hover {
   background: #3761a0;
+}
+
+#root {
+  display: flex;
 }

@@ -11,11 +11,11 @@ const paths = {
 };
 
 const initialState = {
-  openness: -1,
-  conscientiousness: -1,
-  agreeableness: -1,
-  extraversion: -1,
-  stability: -1,
+  openness: 50,
+  conscientiousness: 50,
+  agreeableness: 50,
+  extraversion: 50,
+  stability: 50,
 };
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
           <Survey state={personality} setState={setPersonality} />
         </Route>
         <Route exact path={paths.result}>
-          <Result state={personality} />
+          <Result state={personality} setState={setPersonality} />
         </Route>
       </Switch>
     </Router>

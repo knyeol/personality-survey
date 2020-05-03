@@ -9,7 +9,7 @@ export function Group({ children, facet, state, setState }) {
 
   useEffect(() => {
     if (!answers.includes(-1)) {
-      const result = Math.round((answers[0] + answers[1]) / 2));
+      const result = Math.round((answers[0] + answers[1]) / 2);
       setAverage(result);
     }
   }, [answers]);
@@ -37,7 +37,7 @@ export function Group({ children, facet, state, setState }) {
   }, [average]);
 
   return (
-    <div>
+    <div className="question-group">
       {React.Children.map(children, (child, index) => {
         return React.cloneElement(child, {
           index: index,

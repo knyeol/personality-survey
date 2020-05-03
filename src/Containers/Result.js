@@ -17,19 +17,21 @@ function BarValue({ field, value }) {
   );
 }
 
-export function Result({ state }) {
+export function Result({ state, setState }) {
   return (
     <div className="container spaced">
       <h3 className="result-title">
         <GiBrain className="result-logo" />
         &ensp;Your results
       </h3>
-      <BarValue field="Agreeableness" value={state.agreeableness} />
-      <BarValue field="Conscientiousness" value={state.conscientiousness} />
-      <BarValue field="Extraversion" value={state.extraversion} />
-      <BarValue field="Openness to Experience" value={state.openness} />
-      <BarValue field="Emotional Stability" value={state.stability} />
-      <Description />
+      <div className="bar-window">
+        <BarValue field="Agreeableness" value={state.agreeableness} />
+        <BarValue field="Conscientiousness" value={state.conscientiousness} />
+        <BarValue field="Extraversion" value={state.extraversion} />
+        <BarValue field="Openness to Experience" value={state.openness} />
+        <BarValue field="Emotional Stability" value={state.stability} />
+      </div>
+      <Description setState={setState} />
     </div>
   );
 }
