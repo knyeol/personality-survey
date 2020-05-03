@@ -21,8 +21,9 @@ export function Result({ state, setState }) {
   return (
     <div className="container spaced">
       <h3 className="result-title">
+        &emsp;
         <GiBrain className="result-logo" />
-        &ensp;Your results
+        &ensp;Your Results
       </h3>
       <div className="bar-window">
         <BarValue field="Agreeableness" value={state.agreeableness} />

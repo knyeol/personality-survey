@@ -37,6 +37,7 @@
 
 .flex-end {
   justify-content: flex-end;
+  margin-bottom: 0;
 }
 
 .link {

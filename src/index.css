@@ -29,6 +29,18 @@ a:hover {
   background: #3761a0;
 }
 
+figure {
+  margin-bottom: 25px;
+  line-height: 1.6rem;
+}
+
 #root {
   display: flex;
+}
+
+@media (max-width: 499px) {
+  figure {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
 }

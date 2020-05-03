@@ -39,5 +39,9 @@
 }
 
 .description-container {
-  margin-top: 40px !important;
+  margin-top: 35px !important;
+}
+
+.description-overview {
+  margin-bottom: 50px;
 }
