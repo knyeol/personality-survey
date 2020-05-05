@@ -17,6 +17,15 @@ export const Description = ({ setState }) => {
     <div className="description-container">
       <div className="link-container flex-end">
         <Link
+          to="/start"
+          className="link"
+          onClick={handleClick}
+          onTouchEnd={handleClick}
+        >
+          Start Page
+        </Link>
+        &emsp;
+        <Link
           to="/survey"
           className="link"
           onClick={handleClick}

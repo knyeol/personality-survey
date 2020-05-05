@@ -18,6 +18,8 @@ function BarValue({ field, value }) {
 }
 
 export function Result({ state, setState }) {
+  React.useEffect(() => window.scrollTo(0, 0), []);
+
   return (
     <div className="container spaced">
       <h3 className="result-title">

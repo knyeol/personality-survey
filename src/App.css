@@ -3,6 +3,7 @@
   display: grid;
   align-content: center;
   max-width: 600px;
+  width: 100%;
   margin: auto;
 }
 
@@ -16,7 +17,9 @@
 .container {
   padding: 0 30px;
   margin: auto;
+  width: 100%;
   max-width: 600px;
+  box-sizing: border-box;
 }
 
 .spaced {
