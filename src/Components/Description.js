@@ -39,18 +39,18 @@ export const Description = ({ setState }) => {
         <label>Agreeableness</label>
         <figure>
           The tendency to be cooperative, pleasant, and empathetic. Agreeable
-          people tend to make attractive friends and employees. However they are
-          easier to take advantage of and may not always stand up for
-          themselves. Disagreeable people can be hard to get along with and may
-          treat others poorly. They rant, complain, and feel treated unfairly
-          more often.
+          people make attractive friends and employees. However they are easier
+          to take advantage of and may not always stand up for themselves.
+          Disagreeable people can be hard to get along with and may treat others
+          poorly. They rant, complain, and feel treated unfairly more often.
         </figure>
         <label>Conscientiousness</label>
         <figure>
           The tendency to see be diligent, careful, and persevering.
           Conscientiousness people are more reliable and moralistic. They can
-          seem, however, uptight and perfectionistic. Peole low in conscientious
-          are more laid back and calm. But they are also more lazy and flaky.
+          seem, however, uptight and perfectionistic. People low in
+          conscientious are more laid back and calm, but with this comes being
+          lazy and flaky.
         </figure>
         <label>Extraversion</label>
         <figure>
