@@ -38,41 +38,41 @@ export const Description = ({ setState }) => {
         <h3>Big Five Summary</h3>
         <label>Agreeableness</label>
         <figure>
-          The tendency to be cooperative, pleasant, and empathetic. Agreeable
-          people make attractive friends and employees. However they are easier
-          to take advantage of and may not always stand up for themselves.
-          Disagreeable people can be hard to get along with and may treat others
-          poorly. They rant, complain, and feel treated unfairly more often.
+          The tendency to be cooperative, pleasant, and empathetic. More
+          agreeable people make attractive friends and partners. However they
+          are easier to take advantage of and have trouble standing up for
+          themselves. Disagreeable people can be hard to get along with and may
+          treat others poorly. They complain, and feel treated unfairly often.
         </figure>
         <label>Conscientiousness</label>
         <figure>
-          The tendency to see be diligent, careful, and persevering.
-          Conscientiousness people are more reliable and moralistic. They can
-          seem, however, uptight and perfectionistic. People low in
-          conscientious are more laid back and calm, but with this comes being
-          lazy and flaky.
+          The tendency to see be diligent, careful, and persevering. More
+          conscientiousness people are reliable and moralistic. They can seem,
+          however, uptight and perfectionistic. People low in conscientious are
+          more laid back and calm, but they are also lazy and flaky.
         </figure>
         <label>Extraversion</label>
         <figure>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quia
-          rem obcaecati cupiditate dolorum quo, amet quasi esse minus qui
-          sapiente ratione aperiam quos rerum blanditiis. Dicta quod reiciendis
-          nulla.
+          More extraverted people enjoy social activities and feel more
+          comfortable meeting new people. Introverts aren't necessarily quiet
+          but instead prefer talking about their interests rather than talking
+          to socialize. Humans are very extraverted compared to other species,
+          so talkative aren't necessarily far on the extraverted side of the
+          spectrum.
         </figure>
         <label>Openness to Experience</label>
         <figure>
           Interest in new or unordinary experiences and ideas. People low in
           openness can seem boring and narrow minded. People high in openness
-          are more likely to experiment with drugs or get into danger. They may
-          also over invest in unrealistic ideas or goals.
+          are more likely to experiment with drugs or get into danger. They are
+          also more likely to invest in unrealistic ideas or goals.
         </figure>
         <label>Emotional Stability</label>
         <figure>
           People low in emotional stability feel depressed, anxious, and
           frustrated easily. They have a tendency to over react and can be
-          impulsive. They are more sensitive and volatile. People with high
-          emotional stability are more resilient and less bothered by unpleasant
-          people and experiences.
+          impulsive. People with high emotional stability are more resilient and
+          less bothered by unpleasant people and experiences.
         </figure>
       </div>
 
