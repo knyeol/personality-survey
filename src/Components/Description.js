@@ -9,7 +9,7 @@ export const Description = ({ setState }) => {
       conscientiousness: 50,
       agreeableness: 50,
       extraversion: 50,
-      stability: 50,
+      stability: 50
     });
   }
 
@@ -36,13 +36,20 @@ export const Description = ({ setState }) => {
       </div>
       <div className="description-overview">
         <h3>Big Five Summary</h3>
+        <figure>
+          The Big Five is a commonly used personality model. It arose out of a
+          large number of personality trait descriptions and several independent
+          personality surveys. These descriptions were reduced to a small number
+          of traits, and factor analysis was used to help group traits based on
+          personality survey data.
+        </figure>
         <label>Agreeableness</label>
         <figure>
           The tendency to be cooperative, pleasant, and empathetic. More
           agreeable people make attractive friends and partners. However they
           are easier to take advantage of and have trouble standing up for
-          themselves. Disagreeable people can be hard to get along with and may
-          treat others poorly. They complain, and feel treated unfairly often.
+          themselves. Disagreeable people can be argumentative and difficult to
+          get along with.
         </figure>
         <label>Conscientiousness</label>
         <figure>
@@ -57,8 +64,7 @@ export const Description = ({ setState }) => {
           comfortable meeting new people. Introverts aren't necessarily quiet
           but instead prefer talking about their interests rather than talking
           to socialize. Humans are very extraverted compared to other species,
-          so talkative aren't necessarily far on the extraverted side of the
-          spectrum.
+          so being talkative doesn't necessarily make one an extravert.
         </figure>
         <label>Openness to Experience</label>
         <figure>
